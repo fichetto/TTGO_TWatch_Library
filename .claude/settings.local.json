@@ -24,7 +24,8 @@
       "Bash(del nul)",
       "Bash(git add:*)",
       "Bash(cmd /c del nul)",
-      "Bash(cmd /c \"if exist nul del /F /Q nul\")"
+      "Bash(cmd /c \"if exist nul del /F /Q nul\")",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
