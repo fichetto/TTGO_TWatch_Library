@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git checkout:*)",
+      "Bash(arduino-cli version:*)",
+      "Bash(echo:*)",
+      "Bash(cmd /c install_deps.bat)",
+      "Bash(wmic path Win32_PnPEntity where \"Name like ''''%USB%''''\" get Name,DeviceID)",
+      "Bash(code \"c:\\Users\\devel\\source\\repos\\TTGO_TWatch_Library\")",
+      "Bash(where code)",
+      "Bash(\"C:\\Users\\devel\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code.cmd\" \"c:\\Users\\devel\\source\\repos\\TTGO_TWatch_Library\")",
+      "Bash(\"C:\\Users\\devel\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"c:\\Users\\devel\\source\\repos\\TTGO_TWatch_Library\")",
+      "Bash(\"C:\\Users\\devel\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code.cmd\" .)",
+      "Bash(pio --version:*)",
+      "Bash(pio run:*)",
+      "Bash(pio device monitor:*)",
+      "Bash(timeout /t 3)",
+      "Bash(nul)",
+      "Bash(ping:*)",
+      "Bash(findstr:*)",
+      "Bash(dir:*)",
+      "Bash(git remote:*)",
+      "Bash(git push:*)",
+      "Bash(del nul)",
+      "Bash(git add:*)",
+      "Bash(cmd /c del nul)",
+      "Bash(cmd /c \"if exist nul del /F /Q nul\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
